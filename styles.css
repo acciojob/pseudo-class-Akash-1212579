@@ -1,1 +1,24 @@
-/*  your css code here. If applicable */
+ #container {
+      margin: 20px;
+      font-size: 18px;
+      padding: 10px;
+      border: 1px solid #ccc;
+    }
+
+    /* Insert content before */
+    #container::before {
+      content: "BEFORE Element";
+      color: #f00;          /* red */
+      font-size: 20px;
+      display: block;       /* shows on its own line */
+      margin-bottom: 10px;
+    }
+
+    /* Insert content after */
+    #container::after {
+      content: "AFTER Element";
+      color: #f00;          /* red */
+      font-size: 20px;
+      display: block;       /* shows on its own line */
+      margin-top: 10px;
+    }
