@@ -1,10 +1,20 @@
-   #container::before {
-      content: "BEFORE Element";
-      color: #f00;          
-      
+ #container {
+      margin: 20px;
+      font-size: 18px;
+      padding: 10px;
+      border: 1px solid #ccc;
     }
 
+    /* Insert content before */
+    #container::before {
+      content: "BEFORE Element";
+      color: #f00;          /* red */
+     
+    }
+
+    /* Insert content after */
     #container::after {
       content: "AFTER Element";
-      color: #f00;        
+      color: #f00;          /* red */
+      
     }
