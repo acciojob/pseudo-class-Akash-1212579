@@ -7,14 +7,14 @@
 
     /* Insert content before */
     #container::before {
-      content: "BEFORE Element";
+      content: "Before Element";
       color: #f00;          /* red */
      
     }
 
     /* Insert content after */
     #container::after {
-      content: "AFTER Element";
+      content: "After Element";
       color: #f00;          /* red */
       
     }
